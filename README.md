@@ -9,7 +9,7 @@
 
 This module is meant for informational purposes and not for secure identification.
 
-**Requires the `--allow-env` flag**.
+**Requires the `--allow-env` and `--allow-run` flags**.
 
 ## Usage
 
