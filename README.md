@@ -9,6 +9,8 @@
 
 This module is meant for informational purposes and not for secure identification.
 
+**Requires the `--allow-env` flag**.
+
 ## Usage
 
 ```js
