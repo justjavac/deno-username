@@ -14,7 +14,7 @@ import {
  * Then falls back to `$ id -un` on macOS / Linux and `$ whoami` on Windows,
  * in the rare case none of the environment variables are set.
  *
- * Requires the `--allow-env` flag.
+ * Requires the `--allow-env` and `--allow-run` flags.
  *
  * @returns The username.
  */
