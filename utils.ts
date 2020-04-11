@@ -19,8 +19,8 @@ export function makeUsernameFromId(userId: string): string {
   return `no-username-${userId}`;
 }
 
-export async function exec(args: string[]): Promise<string> {
-  const process: Deno.Process = Deno.run({ args });
+export async function exec(cmd: string[]): Promise<string> {
+  const process: Deno.Process = Deno.run({ cmd });
   const decoder = new TextDecoder();
   return decoder.decode(await process.output());
 }

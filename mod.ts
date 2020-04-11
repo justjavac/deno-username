@@ -2,7 +2,7 @@ import {
   getEnvironmentVariable,
   cleanWindowsCommand,
   exec,
-  makeUsernameFromId
+  makeUsernameFromId,
 } from "./utils.ts";
 
 /**

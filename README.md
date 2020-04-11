@@ -3,7 +3,7 @@
 [![tag](https://img.shields.io/github/release/justjavac/deno-username)](https://github.com/justjavac/deno-username/releases)
 [![Build Status](https://github.com/justjavac/deno-username/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/deno-username/actions)
 [![license](https://img.shields.io/github/license/justjavac/deno-username)](https://github.com/justjavac/deno-username/blob/master/LICENSE)
-[![](https://img.shields.io/badge/deno-v0.25.0-green.svg)](https://github.com/denoland/deno)
+[![](https://img.shields.io/badge/deno-v0.40.0-green.svg)](https://github.com/denoland/deno)
 
 > Get the username of the current user
 
