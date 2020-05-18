@@ -28,7 +28,7 @@ export default async function username(): Promise<string | undefined> {
   // We do this because in `docker run --user <uid>:<gid>` context,
   // we don't have "username" available.
   try {
-    if (Deno.build.os === "win") {
+    if (Deno.build.os === "windows") {
       return cleanWindowsCommand(await exec(["whoami"]));
     }
 
