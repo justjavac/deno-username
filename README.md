@@ -14,7 +14,7 @@ This module is meant for informational purposes and not for secure identificatio
 ## Usage
 
 ```js
-import { username } from "https://deno.land/x/username/mod.ts";
+import username from "https://deno.land/x/username/mod.ts";
 
 await username();
 // ---> 'justjavac'
