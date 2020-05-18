@@ -1,5 +1,5 @@
 export function getEnvironmentVariable(): string {
-  const env = Deno.env();
+  const env = Deno.env.toObject();
 
   return (
     env.SUDO_USER ||
